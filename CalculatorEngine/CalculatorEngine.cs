@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SimpleCalculator
+namespace CalculatorEngine
 {
     public class CalculatorEngine
     {

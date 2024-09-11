@@ -8,20 +8,18 @@ namespace SimpleCalculator
         {
             try
             {
-                // Class to convert user input
-                InputConverter inputConverter = new InputConverter();
-
                 // Class to perform actual calculations
                 CalculatorEngine calculatorEngine = new CalculatorEngine();
 
-                double firstNumber = inputConverter.ConvertInputToNumeric(Console.ReadLine());
-                double secondNumber = inputConverter.ConvertInputToNumeric(Console.ReadLine());
+                double firstNumber = InputConverter.ConvertInputToNumeric(Console.ReadLine());
+                double secondNumber = InputConverter.ConvertInputToNumeric(Console.ReadLine());
                 string operation = Console.ReadLine();
-
+                
                 double result = calculatorEngine.Calculate(operation, firstNumber, secondNumber);
-
+                
                 Console.WriteLine(result);
-
+                Console.WriteLine("Press Enter to End.");
+                string haha = Console.ReadLine();
             } catch (Exception ex)
             {
                 // Normally, we'd log this error to a file.
