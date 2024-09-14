@@ -36,9 +36,6 @@
     <Reference Include="CalculatorDLLThing">
       <HintPath>..\..\CalculatorDLLThing\CalculatorDLLThing\bin\Debug\CalculatorDLLThing.dll</HintPath>
     </Reference>
-    <Reference Include="CalculatorEngine">
-      <HintPath>..\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
