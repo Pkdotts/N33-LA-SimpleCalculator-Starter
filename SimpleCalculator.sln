@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator.Test.Unit", "SimpleCalculator.Test.Unit\SimpleCalculator.Test.Unit.csproj", "{9CD2395E-5BA7-4EA8-A5D2-EFED7B1E4856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorDLLThing", "..\CalculatorDLLThing\CalculatorDLLThing\CalculatorDLLThing.csproj", "{4421C150-238F-4A19-A91E-6023C3A32474}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorDLLThing", "CalculatorDLLThing\CalculatorDLLThing.csproj", "{4421C150-238F-4A19-A91E-6023C3A32474}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
