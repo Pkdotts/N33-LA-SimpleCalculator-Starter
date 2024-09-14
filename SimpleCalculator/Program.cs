@@ -16,7 +16,7 @@ namespace SimpleCalculator
 
                 double firstNumber = InputConverter.ConvertInputToNumeric(Console.ReadLine());
                 double secondNumber = InputConverter.ConvertInputToNumeric(Console.ReadLine());
-                Console.WriteLine("enter your operation (add, subtract, divide, multiply");
+                Console.WriteLine("enter your operation (add, subtract, divide, multiply, modulus)");
                 string operation = Console.ReadLine();
                 
                 double result = calculatorEngine.Calculate(operation, firstNumber, secondNumber);
@@ -38,6 +38,10 @@ namespace SimpleCalculator
                 else if (operation == "/" || operation.ToLower() == "divided")
                 {
                     build.AppendFormat("The value {0:F2} divided by the value {1:F2} is equal to {2:F2}", firstNumber, secondNumber, result);
+                }
+                else if (operation == "%" || operation.ToLower() == "modulus")
+                {
+                    build.AppendFormat("The value {0:F2} modulo by the value {1:F2} is equal to {2:F2}", firstNumber, secondNumber, result);
                 }
 
 
